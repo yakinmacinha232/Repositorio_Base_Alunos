@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Flask</title>
+</head>
+<body>
+    <h1>Fábrica de Programadores</h1>
+    <p>Prefeitura de Santana de Parnaíba</p>
+    <br>
+    <h2>Você tem {{idade}} anos.</h2>
+    <!-- Condicional que irá checar se a pessoa atingiu a maioridade -->
+    {% if idade >= 18 %}
+        <p>Você já atingiu a maioridade.</p>
+    {% else %}
+        <p>Você ainda não atingiu a maioridade.</p>
+    {% endif %}
+</body>
+</html>
